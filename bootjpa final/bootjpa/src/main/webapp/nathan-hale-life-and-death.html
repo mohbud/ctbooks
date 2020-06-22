@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>Nathan Hale Life and Death</title>
+		<div class="header">
+      <h1>Connecticut Books for Sale</h1>
+	  <div class="topnav">
+	  <script src="list.js"></script>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+      <button onclick = "window.location.href = 'homepage.html';">Home</button>
+      <form action="getBook"><input type="submit" name="id" value="Your Cart"></form>
+      <button type="Add to cart">Your Account</button>
+	  </div>
+	  <link href="style.css" rel="stylesheet">
+   </div>
+  </head>
+  <body>
+   <div>
+   <main class="container">
+  <div class="left-column">
+  <img class="active" src="images/nathanhale.jpg">
+  </div>
+ <div class="right-column">
+   <div class="product-description">
+   <span>Historical</span>
+		<h1>Nathan Hale: The Life and Death of America's First Spy</h1>
+		<h1>by M. William Philips</h3>
+		<p>Although famous for his purported last words "I only regret that I have but one life to lose for my country”few people know the real Nathan Hale. M. William Phelps brings into focus the life of this famed patriot and first spy of the American Revolution, charting Hales rural childhood, his education at Yale, and his work as a schoolteacher. Like many young Americans, he was soon drawn into the colonies' war for independence and became a captain in Washington's army. When the general was in need of a spy, Hale willingly rose to the challenge, gathering intelligence behind British lines on Long Island, and in the end bravely sacrificing his life for the sake of American liberty. Using Hale's own journals and letters as well as testimonies from his friends and contemporaries, Phelps depicts the Revolution as it was seen from the ground. From the confrontation in Boston to the battle for New York City, readers experience what life was like for an ordinary soldier in the struggling Continental Army. In this impressive, well-researched biography, Phelps separates historical fact from long-standing myth to reveal the truth about Nathan Hale, a young man who deserves to be remembered as an original American patriot.</p></div>
+		<div class="product-price">
+		<p> <span>$9.99</span> </p>
+		<p><form action="cartBookUrl/Nathan Hale: The Life and Death of America's First Spy/9.99"><input type="submit"></form></p>
+	</div> 
+	</main>
+	</div>
+	</div>
+	</body>
+	<div class="footer">
+		<div id="comments">
+		  <table>
+		    <tbody class="list">
+			<tr>
+				<td class="name"><h4>Name</h4></td>
+				<td class="score"><h4>Rating</h4></td>
+				<td class="comment"><h4>Comment</h4></td>
+			  </tr>
+			  <tr>
+			    <td class="id" style="display:none;">1</td>
+				<td class="name">Adrian G.</td>
+				<td class="score">4.8</td>
+				<td class="comment">Pretty good book, I like Mark Twain</td>
+				<td class="edit"><button class="edit-item-btn">Edit</button></td>
+				<td class="remove"><button class="remove-item-btn">Remove</button></td>
+			  </tr>
+			  <tr>
+			    <td class="id" style="display:none;">2</td>
+				<td class="name">Jenn L.</td>
+				<td class="score">2.3</td>
+				<td class="comment">Terrible, not worth the price at all</td>
+				<td class="edit"><button class="edit-item-btn">Edit</button></td>
+				<td class="remove"><button class="remove-item-btn">Remove</button></td>
+			  </tr>
+			  <tr>
+			    <td class="id" style="display:none;">3</td>
+				<td class="name">Lamont K.</td>
+				<td class="score">3.9</td>
+				<td class="comment">This is a nice book with good pieces about 50 interesting "icons" (places, products, etc). . But I was disappointed in the size of the very nice photographs.</td>
+				<td class="edit"><button class="edit-item-btn">Edit</button></td>
+				<td class="remove"><button class="remove-item-btn">Remove</button></td>
+			  </tr>
+			</tbody>
+		  </table>
+		  <p>
+			<table>
+			  <td class="name">
+				<input type="hidden" id="id-field" />
+				<input type="text" id="name-field" placeholder="Name" />
+			  </td>
+			  <td class="score">
+				<input type="text" id="score-field" placeholder="Rating" />
+			  </td>
+			  <td class="comment">
+				<input type="text" id="comment-field" placeholder="Comment" />
+			  </td>
+			  <td class="add">
+				<button id="add-btn">Submit</button>
+				<button id="edit-btn">Edit</button>
+			  </td>
+			</table>
+		  </p>
+		</div>
+		<div class="recs">
+  <h3>Other Books You May Like:</h3>
+  <a href="mark-twain-among-the-indians.html">
+       <h3 class="title">Mark Twain among the Indians and Other Indigenous Peoples</h3> </a>
+    <a href="eli-whitney-life-and-legacy.html">
+       <h3 class="title">Eli Whitney: The Life and Legacy of the American Inventor Whose Cotton Gin Transformed the Antebellum South</h3> </a>
+       <a href="the-notorious-benedict-arnold.html">
+       <h3 class="title">The Notorious Benedict Arnold: A True Story of Adventure, Heroism & Treachery</h3> </a>
+  <br />
+  <br /></div>
+	</div>
+  <script src="comments.js"></script>
+</html>

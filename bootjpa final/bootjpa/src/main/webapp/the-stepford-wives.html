@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>Stepford Wives</title>
+		<div class="header">
+      <h1>Connecticut Books for Sale</h1>
+	  <div class="topnav">
+	  <script src="list.js"></script>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+      <button onclick = "window.location.href = 'homepage.html';">Home</button>
+      <form action="getBook"><input type="submit" name="id" value="Your Cart"></form>
+      <button type="Add to cart">Your Account</button>
+	  </div>
+	  <link href="style.css" rel="stylesheet">
+   </div>
+  </head>
+  <body>
+   <div>
+   <main class="container">
+  <div class="left-column">
+  <img class="active" src="images/stepfordwives.jpg">
+  </div>
+ <div class="right-column">
+   <div class="product-description">
+   <span>Fiction</span>
+		<h1>The Stepford Wives</h1>
+		<h1>by Ira Levin</h3>
+		<p>For Joanna, her husband, Walter, and their children, the move to beautiful Stepford seems almost too good to be true. It is. For behind the town's idyllic facade lies a terrible secret -- a secret so shattering that no one who encounters it will ever be the same.
+
+At once a masterpiece of psychological suspense and a savage commentary on a media-driven society that values the pursuit of youth and beauty at all costs, The Stepford Wives is a novel so frightening in its final implications that the title itself has earned a place in the American lexicon.
+</p><br><br></div>
+		<div class="product-price">
+		<p><span>$9.99</span></p>
+		<p><form action="cartBookUrl/The Stepford Wives/9.99"><input type="submit"></form></p>
+	</div> 
+	</main>
+	</div>
+	</div>
+	</body>
+	<div class="footer">
+		<div id="comments">
+		  <table>
+		    <tbody class="list">
+			<tr>
+				<td class="name"><h4>Name</h4></td>
+				<td class="score"><h4>Rating</h4></td>
+				<td class="comment"><h4>Comment</h4></td>
+			  </tr>
+			  <tr>
+			    <td class="id" style="display:none;">1</td>
+				<td class="name">Adrian G.</td>
+				<td class="score">4.8</td>
+				<td class="comment">Pretty good book, I like Mark Twain</td>
+				<td class="edit"><button class="edit-item-btn">Edit</button></td>
+				<td class="remove"><button class="remove-item-btn">Remove</button></td>
+			  </tr>
+			  <tr>
+			    <td class="id" style="display:none;">2</td>
+				<td class="name">Jenn L.</td>
+				<td class="score">2.3</td>
+				<td class="comment">Terrible, not worth the price at all</td>
+				<td class="edit"><button class="edit-item-btn">Edit</button></td>
+				<td class="remove"><button class="remove-item-btn">Remove</button></td>
+			  </tr>
+			  <tr>
+			    <td class="id" style="display:none;">3</td>
+				<td class="name">Lamont K.</td>
+				<td class="score">3.9</td>
+				<td class="comment">This is a nice book with good pieces about 50 interesting "icons" (places, products, etc). . But I was disappointed in the size of the very nice photographs.</td>
+				<td class="edit"><button class="edit-item-btn">Edit</button></td>
+				<td class="remove"><button class="remove-item-btn">Remove</button></td>
+			  </tr>
+			</tbody>
+		  </table>
+		  <p>
+			<table>
+			  <td class="name">
+				<input type="hidden" id="id-field" />
+				<input type="text" id="name-field" placeholder="Name" />
+			  </td>
+			  <td class="score">
+				<input type="text" id="score-field" placeholder="Rating" />
+			  </td>
+			  <td class="comment">
+				<input type="text" id="comment-field" placeholder="Comment" />
+			  </td>
+			  <td class="add">
+				<button id="add-btn">Submit</button>
+				<button id="edit-btn">Edit</button>
+			  </td>
+			</table>
+		  </p>
+		</div>
+		<div class="recs">
+  <h3>Other Books You May Like:</h3>
+  <a href="witch-of-blackbird-pond.html">
+       <h3 class="title">The Witch of Blackbird Pond</h3> </a>
+  <a href="revolutionary-road.html">
+       <h3 class="title">Revolutionary Road</h3> </a>
+       <a href="adventures-of-huckleberry-finn.html">
+       <h3 class="title">The Adventures of Huckleberry Finn</h3> </a>
+  <br />
+  <br /></div>
+	</div>
+  <script src="comments.js"></script>
+</html>
